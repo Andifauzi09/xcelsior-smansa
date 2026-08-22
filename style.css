@@ -230,6 +230,11 @@ body {
     border-radius: 10px;
     text-align: center;
     border: 1px solid #e2e8f0;
+    transition: .3s;
+}
+
+.member-card:hover{
+    transform: translateY(-10px);
 }
 
 .avatar {
