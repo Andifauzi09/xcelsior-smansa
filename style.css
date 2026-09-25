@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 60px;
 }
 
 .logo {
@@ -78,6 +78,7 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
+    margin-top: 0.7rem;
     gap: 20px;
 }
 
@@ -114,7 +115,7 @@ body {
             center/cover no-repeat;
     display: flex;
     align-items: center;
-    text-align: left;
+    text-align: center;
     justify-content: left;
     color: var(--white);
     padding-top: 70px;
@@ -140,7 +141,7 @@ body {
     margin-left: 2px;
 }
 
-.btn {
+.btn-cta {
     display: inline-block;
     padding: 12px 30px;
     background: #facc15;
@@ -153,7 +154,7 @@ body {
         background-color 0.3s;
 }
 
-.btn:hover {
+.btn-cta:hover {
     transform: translateY(-3px);
     background: #eab308;
 }
@@ -164,16 +165,16 @@ body {
     background: var(--white);
 }
 
-.about-text {
-    max-width: 800px;
-    margin: 0 auto;
+.subtitle {
     text-align: center;
-    font-size: 1.1rem;
-    color: var(--text-muted);
+    margin-bottom: 2rem;
 }
 
-.about-text p {
-    margin-bottom: 15px;
+.event-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* --- VISI & MISI SECTION --- */
