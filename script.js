@@ -34,3 +34,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const typed = new Typed("#typed-text", option);
 });
+
+// Shrink Effect at Navbar
+window.addEventListener("scroll", function () {
+    const navbar = document.getElementById("navbar");
+
+    if (window.scrollY > 5) {
+        navbar.classList.add("shrink");
+    } else {
+        navbar.classList.remove("shrink");
+    }
+});
