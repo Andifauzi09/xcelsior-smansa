@@ -334,7 +334,7 @@ footer p {
     .nav-links {
         position: absolute;
         top: 70px;
-        left: -100%;
+        left: -110%;
         width: 100%;
         height: auto;
         background: var(--white);
